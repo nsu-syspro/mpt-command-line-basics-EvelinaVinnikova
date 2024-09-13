@@ -1,5 +1,4 @@
-cd data
-unzip archive-part2.zip
-tar --list -f archive-part1.tar
-tar cf archive-combined.tar some
-gzip archive-combined.tar
+unzip data/archive-part2.zip
+tar --list -f data/archive-part1.tar
+tar cf data/archive-combined.tar some
+gzip data/archive-combined.tar
